@@ -7,8 +7,6 @@ public class MainBank{
         double minimumBalance=500.00;
 
         Scanner scr=new Scanner(System.in);
-        //System.out.println("Enter an choice: ");
-//        int choice=scr.nextInt();
         Transaction transaction=new Transaction();
         for (int i=1;i<=3;i++)
         {
@@ -20,7 +18,7 @@ public class MainBank{
             int choice=scr.nextInt();
             switch (choice) {
                 case 1:
-                    System.out.println("Enter an amount to deposite: ");
+                    System.out.println("Enter an amount to deposit: ");
                     double depAmount = scr.nextDouble();
                     transaction.depositeAmount(depAmount);
                     break;

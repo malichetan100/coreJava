@@ -2,6 +2,7 @@ package com.chetan.programs;
 
 public class DataTypes {
     public static void main(String args[]) {
+
         int number1 = 10;
         short number2 = 5;
         long number3 = 7204330225L;
